@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Página de Inicio")
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales")
 st.write("Facilmente puedo realizar backend y frontend.")
-image=Image.open("CasaObraBlanca.jpg")
+image=Image.open("CasaObraBlanca.jpeg")
 st.image(image, caption= "Esta es la casa")
 
 
