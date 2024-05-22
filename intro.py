@@ -3,9 +3,9 @@ from PIL import Image
 
 
 st.title("Página de Inicio")
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales")
+st.header("Desde ésta página puedes controlar el funcionamiento de tu casa")
 image=Image.open("CasaObraBlanca.jpeg")
-st.image(image, caption= "Esta es la casa")
+st.image(image, caption= "Ésta es la casa")
 
 
 st.subheader("Ahora Usemos 2 columnas")
